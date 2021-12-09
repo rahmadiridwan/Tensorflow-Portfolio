@@ -1,5 +1,5 @@
 # Tensorflow-Portfolio
-Deep learning Tensorflow Keras projects in Image Classification and NLP
+Deep learning Tensorflow Keras projects in Image Classification, NLP and TSA
 
 ## [Rock, Paper, Scissors Hand Gestures Image Classification Project](https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/Batu_Gunting_Kertas.ipynb)
 (https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/Batu_Gunting_Kertas.ipynb)
@@ -26,7 +26,18 @@ This is my first NLP project with Tensorflow Keras and my second Tensorflow proj
 * The contents of the training and validation sets are then tokenized (limited to its 5000 most frequent words in the text training and validation set which includes an 'out of vocabulary' index)
 * Padding is also applied to the text training and validation sets to produce sequences of the tokenized words in numpy arrays of equal lengths
 * The label traing and validation sets are also tokenized and padded
-* A sequential model consisting of an Embedding layer (to group the text data as vector representations based on its inclinations), a Bidirectional LSTM layer and an output dense layer is contructed along with a dropout layer set at a rate of 50%
+* A sequential model consisting of an Embedding layer (to group the text data as vector representations based on its inclinations), a Bidirectional LSTM layer and an output dense layer is constructed along with a dropout layer set at a rate of 50%
 * The model is compiled with the loss function and the optimizer set to be categorical crossentropy and adam respectively, whilst the metric evaluated being the accuracy
 * The model is then fitted against the training along with the validation dataset for up to 12 epochs
 * The model is shown to be effective in producing a training accuracy of 99.83% and a validation accuracy of 95.28% 
+
+## [Time Series Analysis on Climate Data](https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/RahmadiRidwan_Proyek1NLP.ipynb)
+This is my final project in the Dicoding machine learning course as well as my first time series analysis project that implements the Tensorflow Keras library
+* The dataset for this project is a record of climate data for countries around the world, which consists of over 240000 samples
+* The sample data is filtered to only include the climate data in China
+* A graph plot of the date time and its respective temperature reading is then plotted using the matplotlib.pyplot library
+* A function called windowed_dataset is created so the time series data can formatted to meet the requirement as input data to the neural network that is to be built
+* The training and validation set is created by splitting the original filtered time series dataset by 80% and 20% respectively
+* A sequential model consisting of two Bidirectional LSTM layers, two dense hidden layers and a dense output layer is built 
+* The MAE (Mean Absolute Error) variable is defined as the difference between the maximum and the minimum average temperature
+* 

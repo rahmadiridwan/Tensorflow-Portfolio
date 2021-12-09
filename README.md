@@ -1,7 +1,7 @@
 # Tensorflow-Portfolio
 Deep learning Tensorflow Keras projects in Image Classification and NLP
 
-# Rock, Paper, Scissors Hand Gestures Image Classification Project ()
+# [Rock, Paper, Scissors Hand Gestures Image Classification Project] (https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/Batu_Gunting_Kertas.ipynb)
 This is my first ever project using the Tensorflow Keras library as part of a machine learning course I took in Dicoding. The first task assigned in the course was to build a neural network using the Tensorflow Keras library to classify images of "rock, paper and scissors" hand gestures
 * The raw dataset contains over 2188 sample pictures of rock, paper and scissors hand gestures (of roughly equal amount for each)
 * An ImageDataGenerator is deployed for augmentation purposes (to reduce bias in the training process)
@@ -12,7 +12,7 @@ This is my first ever project using the Tensorflow Keras library as part of a ma
 * The model is shown to be effective in producing a training accuracy of 96.35% and a validation accuracy of 95.88% 
 * A function to classify an uploaded image of a hand gesture to be either as rock, paper or scissors called image_predictor is defined and applied to test the trained model
 
-# NLP Text Classification of News Articles Project ()
+# [NLP Text Classification of News Articles Project] ()
 This is my first NLP project with Tensorflow Keras and my second Tensorflow project overall. This is also a project which is part of the machine learning course I took in Dicoding and this is the second task that I was assigned 
 * The dataset for this project is the BBC News dataset which consists of 2225 samples
 * The first step taken was the removal of stopwords from the dataset (in order that common words which are not good indicators to classify the text data are not weighted in the training process)

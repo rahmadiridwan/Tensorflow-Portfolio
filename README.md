@@ -12,6 +12,8 @@ This is my first ever project using the Tensorflow Keras library as part of a ma
 * The model is shown to be effective in producing a training accuracy of 96.35% and a validation accuracy of 95.88% 
 * A function to classify an uploaded image of a hand gesture to be either as rock, paper or scissors called image_predictor is defined and applied to test the trained model
 
+
+
 ## [NLP Text Classification of News Articles Project](https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/RahmadiRidwan_Proyek1NLP.ipynb)
 This is my first NLP project with Tensorflow Keras and my second Tensorflow project overall. This is also a project which is part of the machine learning course I took in Dicoding and this is the second task that I was assigned 
 * The dataset for this project is the BBC News dataset which consists of 2225 samples

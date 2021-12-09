@@ -31,7 +31,9 @@ This is my first NLP project with Tensorflow Keras and my second Tensorflow proj
 * The model is then fitted against the training along with the validation dataset for up to 12 epochs
 * The model is shown to be effective in producing a training accuracy of 99.83% and a validation accuracy of 95.28% 
 
-## [Time Series Analysis on Climate Data](https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/RahmadiRidwan_Proyek1NLP.ipynb)
+## [Time Series Analysis on Climate Data](https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/Time_Series.ipynb)
+https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/Time_Series.ipynb
+
 This is my final project in the Dicoding machine learning course as well as my first time series analysis project that implements the Tensorflow Keras library
 * The dataset for this project is a record of climate data for countries around the world, which consists of over 240000 samples
 * The sample data is filtered to only include the climate data in China

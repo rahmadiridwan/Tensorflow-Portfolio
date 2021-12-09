@@ -40,4 +40,6 @@ This is my final project in the Dicoding machine learning course as well as my f
 * The training and validation set is created by splitting the original filtered time series dataset by 80% and 20% respectively
 * A sequential model consisting of two Bidirectional LSTM layers, two dense hidden layers and a dense output layer is built 
 * The MAE (Mean Absolute Error) variable is defined as the difference between the maximum and the minimum average temperature
-* 
+* The model is compiled with the loss function and the optimizer set to be huber and SGD respectively, whilst the metric evaluated being the accuracy
+* The model is then fitted against the training along with the validation dataset for up to 60 epochs
+* The model is shown to be effective in reducing the mean absolute error metric to 2.4 

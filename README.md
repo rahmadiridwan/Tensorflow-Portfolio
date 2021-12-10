@@ -34,7 +34,7 @@ This is my first NLP project with Tensorflow Keras and my second Tensorflow proj
 ## [Time Series Analysis on Weather Data](https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/Time_Series.ipynb)
 https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/Time_Series.ipynb
 
-This is my final project in the Dicoding machine learning course as well as my first time series analysis project that implements the Tensorflow Keras library where the task is to train a recurrent neural network model that forecasts the weather (temperature) time series data where the mean absolute error as the loss metric is kept at a minimum (under 10%)
+This is my final project in the Dicoding machine learning course as well as my first time series analysis project that implements the Tensorflow Keras library where the task given is to train a recurrent neural network model that forecasts the weather (temperature) time series data and the mean absolute error of the regression model produced as the loss metric is kept at a minimum (under 10%)
 * The dataset for this project is a record of weather (temperature) data for countries around the world, which consists of over 240000 samples
 * The sample data is filtered to only include the climate data in China
 * A graph plot of the date time and its respective temperature reading is then plotted using the matplotlib.pyplot library

@@ -44,5 +44,5 @@ This is my final project in the Dicoding machine learning course as well as my f
 * The MAE (Mean Absolute Error) variable is defined as the difference between the maximum and the minimum average temperature
 * The model is compiled with the loss function and the optimizer set to be huber and SGD respectively, whilst the metric evaluated being the accuracy
 * The model is then fitted against the training along with the validation dataset for up to 60 epochs (with the application of a callback function)
-* The model is shown to be effective in reducing the mean absolute error metric to 2.4 (10% its original value)
+* The model is shown to be effective in reducing the mean absolute error metric to 2.37 (10% its original value)
 

@@ -19,7 +19,7 @@ This is my first ever project using the Tensorflow Keras library as part of a ma
 ## [NLP Text Classification of News Articles Project](https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/RahmadiRidwan_Proyek1NLP.ipynb)
 (https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/RahmadiRidwan_Proyek1NLP.ipynb)
 
-This is my first NLP project with Tensorflow Keras and my second Tensorflow project overall. This is also a project which is part of the machine learning course I took in Dicoding and this is the second task that I was assigned 
+This is my first NLP project with Tensorflow Keras and my second Tensorflow project overall. This is also a project which is part of the machine learning course I took in Dicoding and this is the second task that I was assigned which is to classify news articles into their respective news topics
 * The dataset for this project is the BBC News dataset which consists of 2225 samples
 * The first step taken was the removal of stopwords from the dataset (in order that common words which are not good indicators to classify the text data are not weighted in the training process)
 * The text data and its labels are split into seperate training and validation sets using the sklearn train_test_split library
@@ -31,11 +31,11 @@ This is my first NLP project with Tensorflow Keras and my second Tensorflow proj
 * The model is then fitted against the training along with the validation dataset for up to 12 epochs
 * The model is shown to be effective in producing a training accuracy of 99.83% and a validation accuracy of 95.28% 
 
-## [Time Series Analysis on Climate Data](https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/Time_Series.ipynb)
+## [Time Series Analysis on Weather Data](https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/Time_Series.ipynb)
 https://github.com/rahmadiridwan/Tensorflow-Portfolio/blob/main/Time_Series.ipynb
 
-This is my final project in the Dicoding machine learning course as well as my first time series analysis project that implements the Tensorflow Keras library
-* The dataset for this project is a record of climate data for countries around the world, which consists of over 240000 samples
+This is my final project in the Dicoding machine learning course as well as my first time series analysis project that implements the Tensorflow Keras library where the task is to train a recurrent neural network model that forecasts the weather (temperature) time series data where the mean absolute error as the loss metric is kept at a minimum (under 10%)
+* The dataset for this project is a record of weather (temperature) data for countries around the world, which consists of over 240000 samples
 * The sample data is filtered to only include the climate data in China
 * A graph plot of the date time and its respective temperature reading is then plotted using the matplotlib.pyplot library
 * A function called windowed_dataset is created so the time series data can formatted to meet the requirement as input data to the neural network that is to be built
@@ -43,5 +43,5 @@ This is my final project in the Dicoding machine learning course as well as my f
 * A sequential model consisting of two Bidirectional LSTM layers, two dense hidden layers and a dense output layer is built 
 * The MAE (Mean Absolute Error) variable is defined as the difference between the maximum and the minimum average temperature
 * The model is compiled with the loss function and the optimizer set to be huber and SGD respectively, whilst the metric evaluated being the accuracy
-* The model is then fitted against the training along with the validation dataset for up to 60 epochs
-* The model is shown to be effective in reducing the mean absolute error metric to 2.4 
+* The model is then fitted against the training along with the validation dataset for up to 60 epochs (with the application of a callback function)
+* The model is shown to be effective in reducing the mean absolute error metric to 2.4 (10% its original value)
